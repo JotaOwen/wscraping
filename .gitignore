@@ -41,6 +41,9 @@ build/Release
 node_modules/
 jspm_packages/
 
+./test1/node_modules/
+./test2/node_modules/
+
 # TypeScript v1 declaration files
 typings/
 
@@ -84,6 +87,8 @@ dist
 
 # Gatsby files
 .cache/
+./test1/.cache/
+./test2/.cache/
 # Comment in the public line in if your project uses Gatsby and *not* Next.js
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public

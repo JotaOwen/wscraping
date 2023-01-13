@@ -1,0 +1,16 @@
+{
+  "name": "web_scraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "getMenu.js",
+  "scripts": {
+    "start": "node getMenu.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^21.0.0",
+    "puppeteer": "^19.5.1"
+  }
+}

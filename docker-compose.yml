@@ -1,0 +1,20 @@
+version: '3'
+services:
+  test1:
+    build:
+      context: ./test1
+    #volumes:
+    #  - ./test1/:/usr/src/app
+    container_name: Test-1
+    restart: always
+    command: npm start
+  test2:
+    build:
+      context: ./test2
+    #volumes:
+    #  - ./test2:/usr/src/app
+    container_name: Test-2
+    restart: always
+    ports:
+      - 8080:8080
+    command: npm start
